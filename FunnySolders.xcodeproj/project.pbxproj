@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7C4A5915A9732D00B45DD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C4A5815A9732D00B45DD6 /* UIKit.framework */; };
+		3F7C4A5B15A9732D00B45DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C4A5A15A9732D00B45DD6 /* Foundation.framework */; };
+		3F7C4A5D15A9732D00B45DD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C4A5C15A9732D00B45DD6 /* CoreGraphics.framework */; };
+		3F7C4A6315A9732D00B45DD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C4A6115A9732D00B45DD6 /* InfoPlist.strings */; };
+		3F7C4A6515A9732D00B45DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A6415A9732D00B45DD6 /* main.m */; };
+		3F7C4A6915A9732D00B45DD6 /* FunnySoldersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A6815A9732D00B45DD6 /* FunnySoldersAppDelegate.m */; };
+		3F7C4A6C15A9732D00B45DD6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C4A6A15A9732D00B45DD6 /* MainStoryboard.storyboard */; };
+		3F7C4A6F15A9732D00B45DD6 /* FunnySoldersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A6E15A9732D00B45DD6 /* FunnySoldersViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F7C4A5415A9732D00B45DD6 /* FunnySolders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnySolders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7C4A5815A9732D00B45DD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F7C4A5A15A9732D00B45DD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F7C4A5C15A9732D00B45DD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F7C4A6015A9732D00B45DD6 /* FunnySolders-Info.plist */ = {isa = PBXFileReference; path = "FunnySolders-Info.plist"; sourceTree = "<group>"; };
+		3F7C4A6215A9732D00B45DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7C4A6415A9732D00B45DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7C4A6615A9732D00B45DD6 /* FunnySolders-Prefix.pch */ = {isa = PBXFileReference; path = "FunnySolders-Prefix.pch"; sourceTree = "<group>"; };
+		3F7C4A6715A9732D00B45DD6 /* FunnySoldersAppDelegate.h */ = {isa = PBXFileReference; path = FunnySoldersAppDelegate.h; sourceTree = "<group>"; };
+		3F7C4A6815A9732D00B45DD6 /* FunnySoldersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunnySoldersAppDelegate.m; sourceTree = "<group>"; };
+		3F7C4A6B15A9732D00B45DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3F7C4A6D15A9732D00B45DD6 /* FunnySoldersViewController.h */ = {isa = PBXFileReference; path = FunnySoldersViewController.h; sourceTree = "<group>"; };
+		3F7C4A6E15A9732D00B45DD6 /* FunnySoldersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunnySoldersViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7C4A5115A9732D00B45DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7C4A5915A9732D00B45DD6 /* UIKit.framework in Frameworks */,
+				3F7C4A5B15A9732D00B45DD6 /* Foundation.framework in Frameworks */,
+				3F7C4A5D15A9732D00B45DD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7C4A4915A9732D00B45DD6 = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A5E15A9732D00B45DD6 /* FunnySolders */,
+				3F7C4A5715A9732D00B45DD6 /* Frameworks */,
+				3F7C4A5515A9732D00B45DD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7C4A5515A9732D00B45DD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A5415A9732D00B45DD6 /* FunnySolders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7C4A5715A9732D00B45DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A5815A9732D00B45DD6 /* UIKit.framework */,
+				3F7C4A5A15A9732D00B45DD6 /* Foundation.framework */,
+				3F7C4A5C15A9732D00B45DD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7C4A5E15A9732D00B45DD6 /* FunnySolders */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A6715A9732D00B45DD6 /* FunnySoldersAppDelegate.h */,
+				3F7C4A6815A9732D00B45DD6 /* FunnySoldersAppDelegate.m */,
+				3F7C4A6A15A9732D00B45DD6 /* MainStoryboard.storyboard */,
+				3F7C4A6D15A9732D00B45DD6 /* FunnySoldersViewController.h */,
+				3F7C4A6E15A9732D00B45DD6 /* FunnySoldersViewController.m */,
+				3F7C4A5F15A9732D00B45DD6 /* Supporting Files */,
+			);
+			path = FunnySolders;
+			sourceTree = "<group>";
+		};
+		3F7C4A5F15A9732D00B45DD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A6015A9732D00B45DD6 /* FunnySolders-Info.plist */,
+				3F7C4A6115A9732D00B45DD6 /* InfoPlist.strings */,
+				3F7C4A6415A9732D00B45DD6 /* main.m */,
+				3F7C4A6615A9732D00B45DD6 /* FunnySolders-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7C4A5315A9732D00B45DD6 /* FunnySolders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7C4A7215A9732D00B45DD6 /* Build configuration list for PBXNativeTarget "FunnySolders" */;
+			buildPhases = (
+				3F7C4A5015A9732D00B45DD6 /* Sources */,
+				3F7C4A5115A9732D00B45DD6 /* Frameworks */,
+				3F7C4A5215A9732D00B45DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunnySolders;
+			productName = FunnySolders;
+			productReference = 3F7C4A5415A9732D00B45DD6 /* FunnySolders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7C4A4B15A9732D00B45DD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3F7C4A4E15A9732D00B45DD6 /* Build configuration list for PBXProject "FunnySolders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F7C4A4915A9732D00B45DD6;
+			productRefGroup = 3F7C4A5515A9732D00B45DD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7C4A5315A9732D00B45DD6 /* FunnySolders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7C4A5215A9732D00B45DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7C4A6315A9732D00B45DD6 /* InfoPlist.strings in Resources */,
+				3F7C4A6C15A9732D00B45DD6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7C4A5015A9732D00B45DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7C4A6515A9732D00B45DD6 /* main.m in Sources */,
+				3F7C4A6915A9732D00B45DD6 /* FunnySoldersAppDelegate.m in Sources */,
+				3F7C4A6F15A9732D00B45DD6 /* FunnySoldersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7C4A6115A9732D00B45DD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7C4A6215A9732D00B45DD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F7C4A6A15A9732D00B45DD6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7C4A6B15A9732D00B45DD6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7C4A7015A9732D00B45DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F7C4A7115A9732D00B45DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7C4A7315A9732D00B45DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunnySolders/FunnySolders-Prefix.pch";
+				INFOPLIST_FILE = "FunnySolders/FunnySolders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F7C4A7415A9732D00B45DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunnySolders/FunnySolders-Prefix.pch";
+				INFOPLIST_FILE = "FunnySolders/FunnySolders-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7C4A4E15A9732D00B45DD6 /* Build configuration list for PBXProject "FunnySolders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7C4A7015A9732D00B45DD6 /* Debug */,
+				3F7C4A7115A9732D00B45DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7C4A7215A9732D00B45DD6 /* Build configuration list for PBXNativeTarget "FunnySolders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7C4A7315A9732D00B45DD6 /* Debug */,
+				3F7C4A7415A9732D00B45DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7C4A4B15A9732D00B45DD6 /* Project object */;
+}
